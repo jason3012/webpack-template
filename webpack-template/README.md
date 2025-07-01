@@ -8,14 +8,14 @@ This is a Webpack template project that serves as a starting point for building 
 webpack-template
 ├── src
 │   ├── index.js          # Entry point of the application
+│   ├── style.css         # Main stylesheet
 │   ├── app.js            # App module with initialization logic
 │   ├── logic
 │   │   └── exampleFactory.js # Example factory function
 │   ├── dom
 │   │   └── renderer.js    # Renderer module for updating the DOM
 │   └── storage.js        # Storage module for localStorage operations
-├── public
-│   └── index.html        # HTML template for the application
+├── index.html            # HTML template for the application
 ├── webpack.common.js     # Common Webpack configuration
 ├── webpack.dev.js       # Development Webpack configuration
 ├── webpack.prod.js      # Production Webpack configuration
@@ -28,19 +28,22 @@ webpack-template
 To get started with this project, follow these steps:
 
 1. **Clone the repository:**
+
    ```
    git clone <repository-url>
    cd webpack-template
    ```
 
 2. **Install dependencies:**
+
    ```
    npm install
    ```
 
 3. **Run the development server:**
+
    ```
-   npm run start
+   npm run dev
    ```
 
 4. **Build the project for production:**
